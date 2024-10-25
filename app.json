@@ -4,10 +4,10 @@
     "slug": "Calculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/download.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/download.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/download.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.onesmus509.Calculator"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/download.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3aea624f-9f82-409e-a8e0-89ad2a035fde"
+      }
     }
   }
 }
